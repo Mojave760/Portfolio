@@ -46,11 +46,11 @@ My interest in data analytics was first sparked while working Cruise, where I wa
 
 ## Education
 ### University of North Texas
-Bachelor's of Applied Arts and Science, Data Analytics and Marketing
+Bachelor of Applied Arts and Science, Data Analytics and Marketing
 <br>2023-2024
 
 ### City College of San Francisco
-Associates of Science, Architecture
+Associate of Science, Architecture
 <br>2018-2022
 
 ## Certifications
