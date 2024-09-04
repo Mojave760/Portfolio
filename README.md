@@ -46,11 +46,11 @@ Resume - [PDF](https://github.com/Mojave760/Portfolio-Projects/blob/eabb4fa58b83
 
 ## Education
 ### University of North Texas
-<br>Bachelor's of Applied Arts and Science, Data Analytics and Marketing
+Bachelor's of Applied Arts and Science, Data Analytics and Marketing
 <br>2023-2024
 
 ### City College of San Francisco
-<br>Associates of Science, Architecture
+Associates of Science, Architecture
 <br>2018-2022
 
 ## Certifications
@@ -61,6 +61,6 @@ Resume - [PDF](https://github.com/Mojave760/Portfolio-Projects/blob/eabb4fa58b83
 
 ## How to contact me:
 ### LinkedIn 
-<br>[@tylerrollinson](www.linkedin.com/in/tyler-rollinson-a6577036)
+[@tylerrollinson](www.linkedin.com/in/tyler-rollinson-a6577036)
 ### Email 
-<br>tyler.rollinson@gmail.com
+tyler.rollinson@gmail.com
