@@ -1,14 +1,14 @@
--- looking at data
+-- looking at data tables
 DESCRIBE coviddeaths;
 DESCRIBE covidvaccinations;
-
+--
 SELECT COUNT(*) FROM coviddeaths;
 SELECT COUNT(*) FROM covidvaccinations;
-
+--
 SELECT *
 FROM coviddeaths
 LIMIT 5;
-
+--
 SELECT *
 FROM covidvaccinations
 LIMIT 5;
@@ -22,37 +22,38 @@ FROM
 
 -- total cases and deaths (continents)
 SELECT 
-	continent,
+    continent,
     SUM(total_cases) AS total_global_cases,
     SUM(total_deaths) AS total_global_deaths
 FROM 
     coviddeaths
 GROUP BY 
-	continent;
-    
+    continent;
+--     
 SELECT 
-	continent, 
+    continent, 
     MAX(CAST(total_deaths AS UNSIGNED)) AS total_death_count
 FROM 
-	coviddeaths
+    coviddeaths
 WHERE
-	continent IS NOT NULL 
+    continent IS NOT NULL 
 GROUP BY 
-	continent
+    continent
 ORDER BY 
-	total_death_count DESC;
+    total_death_count DESC;
 
 -- total cases and deaths (United States)
 SELECT 
-	location,
+    location,
     SUM(total_cases) AS total_cases,
     SUM(total_deaths) AS total_deaths,
     (SUM(total_deaths) / SUM(total_cases)) * 100 AS death_percentage
 FROM 
-	coviddeaths
+     coviddeaths
 WHERE 
-	location = 'United States'
-ORDER BY 1;
+     location = 'United States'
+ORDER BY 
+     1;
 
 -- hospital patients and ICU patients (United States)
 SELECT 
@@ -66,7 +67,7 @@ FROM
     coviddeaths
 WHERE
 	location = 'United States';
-    
+--    
 SELECT 
     location,
     date,
@@ -75,7 +76,7 @@ SELECT
 FROM 
     coviddeaths
 WHERE 
-	location = 'United States'
+    location = 'United States'
 GROUP BY 
     `date`
 ORDER BY 
@@ -88,7 +89,7 @@ SELECT
     t1.population, 
     t2.new_vaccinations,
     SUM(CAST(t2.new_vaccinations AS UNSIGNED)) 
-        OVER (PARTITION BY t1.location ORDER BY t1.`date`) AS rolling_total_vaccinated
+    OVER (PARTITION BY t1.location ORDER BY t1.`date`) AS rolling_total_vaccinated
 FROM 
     coviddeaths t1
 JOIN 
@@ -99,7 +100,7 @@ WHERE
     t1.location = 'United States'
     AND t1.population IS NOT NULL
 ORDER BY 
-	't1.date' ASC;
+    't1.date' ASC;
 
 -- monthly trends
 SELECT 
@@ -112,7 +113,7 @@ GROUP BY
     month
 ORDER BY 
     month ASC;
-
+--
 SELECT 
     t1.location, 
     DATE_FORMAT(t1.`date`, '%Y-%m') AS month, 
