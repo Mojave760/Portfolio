@@ -29,7 +29,7 @@ My interest in data analytics was first sparked while working Cruise, where I wa
 <br>The dataset contains posts extracted from Reddit, focusing on discussions about group projects. This project includes the following steps: data extraction, data preprocessing, data analysis, and data storage
  
 ### Tableau
-[`Orders Dashboard`]([https://public.tableau.com/app/profile/tyler.rollinson/viz/AirbnbFullProject_17080459009040/Dashboard1](https://public.tableau.com/views/OrdersAnalysis_17254197816250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[`Orders Dashboard`](https://public.tableau.com/views/OrdersAnalysis_17254197816250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 <br>**Description**
 <br>The dataset contains order-related information, including details such as order date, product categories, and sales figures. This project includes the following steps: data loading, data visualization, and dashboard creation for analyzing sales performance.
 
