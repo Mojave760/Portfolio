@@ -62,5 +62,6 @@ Associates of Science, Architecture
 ## How to contact me:
 LinkedIn 
 [@tylerrollinson](www.linkedin.com/in/tyler-rollinson-a6577036)
+<br>
 Email 
 tyler.rollinson@gmail.com
