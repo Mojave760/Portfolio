@@ -5,7 +5,7 @@ I hold a Bachelor of Applied Art and Science in Data Analytics and Marketing fro
 
 My interest in data analytics was first sparked while working Cruise, where I was involved in with autonomous vehicle testing. Working in such a data-driven industry made me increasingly curious about the vast amount of information that drives this technology. This hands on experience paired with background in architecture, where I developed an appreciation for the research and data that informs design decisions, I began to see how powerful data can be in shaping both physical and technological landscapes. This cross-section of experiences fueled my desire to dive deeper into data analytics, where I can combine my analytical mindset with a deep curiosity for discovering the stories that data holds.
 
-Resume - [PDF](https://github.com/Mojave760/Portfolio-Projects/blob/eabb4fa58b835bcf864e1a769c473d7368dcacd0/Tyler%20Rollinson%20Resume.pdf)
+###Resume - [PDF](https://github.com/Mojave760/Portfolio-Projects/blob/eabb4fa58b835bcf864e1a769c473d7368dcacd0/Tyler%20Rollinson%20Resume.pdf)
 
 
 
