@@ -9,7 +9,7 @@ My interest in data analytics was first sparked while working Cruise, where I wa
 
 
 
-## Portfolio 
+## Projects 
 ### SQL
 [`Covid Layoffs`](https://github.com/Mojave760/Portfolio-Projects/blob/eabb4fa58b835bcf864e1a769c473d7368dcacd0/covid_layoffs_data_cleaning.sql)
 <br>**Description**
